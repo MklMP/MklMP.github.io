@@ -7,7 +7,7 @@
 :root {
     --light-color: #FBFBFE;
     --black-color: #000000;
-    --azul-color:  rgb(0, 185, 232);
+    --azul-color:  #FF0000;
 }
 html {
     font-size: 62.5%;
