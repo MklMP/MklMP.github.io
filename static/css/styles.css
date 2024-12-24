@@ -317,7 +317,7 @@ input:checked + .slider:before {
         margin-bottom: -25rem;
         transition: .5s;
     }
-    /*
+    
     .home::before {
         position: absolute;
         top: 100%;
@@ -328,7 +328,7 @@ input:checked + .slider:before {
         background-position: 30rem 1rem;
         transition: .3s;
     }
-    */
+    
 }
 
 @media (max-width:428px) {
