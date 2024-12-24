@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MklMP's Main</title>
+    <link rel="stylesheet" href='static/css/styles.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.css" integrity="sha512-lPVylmnp4LyPqOairDh58Rxe7cfOsLhf0uQHRwNJSWjO0Wd10oaNnzSr+PPw+foN52kjgwImetOCDnG1pNO/Ug==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.css" integrity="sha512-u9sARgGS0ptZTPKetLol1LJd2gv9Zg0KbuoCEft0YP9tnstEsYNVxqzkuOEf+FzyeYWwJGE5jD399b7j8AjG7w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/solid.css" integrity="sha512-0LnC2O/jH9ps+JqmA6HwcOOxZNk3SWB9IJC2N24DakY7TbA9DZa1J7kmEqnXeooVXssHdkOTv6an9z+fICE+QQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <a href="https://github.com/MklMP" class="logo">MklMP <span>Code Express</span>.</a>
+        <div class="toggle-container" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="100">
+            <input type="checkbox" id="theme-toggle">
+            <label for="theme-toggle" class="toggle-label">
+                <img src="static/img/lunita.png" class="toggle-icon lunita" alt="MklMP the world security">
+                <img src="static/img/solecito.png" class="toggle-icon solecito" alt="MklMPCode Express security">
+            </label>
+        </div>
+        <nav class="navbar">
+            <ul class="main-menu">
+                <li data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="/" class="active"><span class="fa fa-home" id="nav-icon"></span>Home<span class="menu-animate"></span></a></li>
+                <li data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="/templates/portfolio/portfolio.html"><span class="fa fa-briefcase" id="nav-icon"></span>Blog<span class="menu-animate"></span></a></li>
+                <li data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="/templates/skills/skills.html"><span class="fa fa-pie-chart" id="nav-icon"></span>Skills<span class="menu-animate"></span></a></li>
+                <li data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="/templates/about/about.html" target="_self"><span class="fa fa-user-circle" id="nav-icon"></span>About<span class="menu-animate"></span></a></li>
+            </ul>
+        </nav>
+        <button class="fa fa-bars" aria-hidden="true" id="menu-icon"></button>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="welcome">Hi, My Name is <span>MklMP</span></div>
+            <div class="text-animate" id="text-animate"><span></span></div>
+            <p>In the field of cybersecurity, we find ourselves engaged in an ongoing battle against unseen adversaries operating in the shadows of the digital realm. This confrontation is a relentless challenge, a perpetual war where the stakes are high and the threats are constantly evolving. In a landscape filled with vulnerabilities, it is crucial to harness the strength needed to dismantle cyber threats, emerging victorious amid the chaos and darkness that lurks within the intricate networks of interconnected technology.</p>
+            <div class="btn-box">
+                <a href="templates/projects/projects.html" class="btn">Projects</a>
+                <a href="templates/contact/contac.html" class="btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="https://www.youtube.com/@MklMPCode Expressecurity" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+            <a href="#" ><i class="fab fa-linkedin" aria-hidden="true" ></i></a>
+            <a href="https://github.com/MklMP" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+        </div>
+        <div class="home-imgHover"></div>
+    </section>
+    <script src='static/js/script.js'></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
